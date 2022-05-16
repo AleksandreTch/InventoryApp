@@ -1,0 +1,126 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+.btn-primary {
+    color: rgb(191,207,217);
+    background-color: black;
+    border: none;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    font-size: 14px;
+    font-family: 'Barlow', sans-serif;
+}
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+        font-family: 'Barlow', sans-serif;
+    }
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+    font-family: 'Barlow', sans-serif;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px; /* Vertically center the text there */
+}
+/*-------------------------Custom Design--------------------------*/
+
+/*-------------------------Register Tab---------------------------*/
+
+.active {
+    font-weight: 400;
+}
+
+.sign-up-form {
+    border:none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:60vw;
+}
+.register-title {
+    display: flex;
+    justify-content: center;
+    font-weight:200 ;
+}
+
+.login-logout-tab-section {
+    display: flex;
+    justify-content: center;
+}
+
+.signin-nav-tabs {
+    display: flex;
+    background: black;
+    margin: 0 auto;
+    justify-content: center;
+    list-style-type: none;
+    border: rgb(191,207,217);
+    width: 100%;
+}
+
+    .signin-nav-tabs a {
+        position: relative;
+        color: rgb(191,207,217);
+        width: 8.75rem;
+        font-size: 1.5rem;
+        font-weight: 400;
+        transition: all 0.3s ease-in;
+    }
+
+.signin-nav-tabs a:hover {
+    color: white;
+    font-weight: 500;
+}
